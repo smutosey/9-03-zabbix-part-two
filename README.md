@@ -184,4 +184,13 @@ check(sys.argv)
 
 Ссылки на файлы в репозитории:
 1. [Vagrantfile](https://github.com/smutosey/9-03-zabbix-part-two/blob/main/Vagrantfile)
+
+Изменения: 
+* Скорректировал в virt_machines имя хостов и присваиваемый IP
+* использование параметра ZABBIX_SERVER_IP в конфигурации, изменил сам IP сервера
+
 2. [zabbix-agent.sh](https://github.com/smutosey/9-03-zabbix-part-two/blob/main/zabbix-agent.sh)
+
+Изменения: 
+* Добавление конфигурации в каталоге /etc/zabbix/zabbix_agentd.d/ - task6_nedorezov.conf  и task7_nedorezov.conf
+* Создание скриптов для UserParameters в /etc/zabbix - task6_nedorezov.sh и task7_nedorezov.py
